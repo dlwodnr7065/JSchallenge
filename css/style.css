@@ -1,0 +1,122 @@
+.hidden{
+    display: none;
+}
+
+/* 전체 페이지 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    transition: background 0.5s ease-in-out;.background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+    }
+    
+}
+
+/* 시계 스타일 */
+#clock {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 로그인 폼 스타일 */
+#login-form {
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+
+}
+
+#login-form input {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#login-form button {
+    font-size: 1rem;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#login-form button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* 환영 메시지 스타일 */
+#greeting {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* 투두 리스트 스타일 */
+#todo-form input {
+    font-size: 1rem;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    width: 300px;
+}
+
+#todo-list li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#todo-list button {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* 명언 및 날씨 정보 스타일 */
+#quote, #weather {
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#quote span {
+    display: block;
+}
+
+/* 숨김 클래스 */
+.hidden {
+    display: none;
+}
